@@ -4,7 +4,7 @@ import { isWithinInterval } from "date-fns";
 import { useState } from "react";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
-import { useReservation } from "./ReservaitonContext";
+import { useReservation } from "./ReservationContext";
 
 function isAlreadyBooked(range, datesArr) {
   return (
